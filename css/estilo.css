@@ -1,0 +1,158 @@
+/*limpar formatacoes padrao*/
+* { /*esse * (asterisco) se refere a TUDO*/
+	
+	margin: 0;
+	padding: 0;
+
+ }
+
+ body {
+ 	font-size: 1em;
+ 	font-family: "Trebuchet MS", Helverica, sans-serif;
+ 	background: #e6e6e6;
+
+ }
+
+ /*
+ **** Layout****
+ */
+
+ #area-cabecalho{ /* O # se refere a div do index.html */
+ 	background-color: #f7b600;
+ 	padding: 15px;
+ 	text-align: center;
+ }
+
+ #area-logo, #area-menu { /*posso colocar várias id (#) separadas por vírgula*/
+ 	padding: 10px;
+ 	 }
+
+
+
+ #area-principal{ 
+ 	width: 920px;
+ 	margin: 0 auto;
+ 	padding: 30px;
+ }
+
+  
+
+ #area-postagens{
+ 	width: 660px;
+ 	float: left;
+ }	 
+
+ #area-lateral{
+ 	width: 240px;
+ 	float: right;
+ }
+
+ .postagens{
+ 	padding: 20px;
+ 	margin-bottom: 20px;
+ 	background: seashell;
+ 	border-bottom: seashell;
+ }
+
+ .conteudo-lateral{
+ 	background: seashell;
+ 	padding: 10px;
+	margin-bottom: 20px;
+
+ }
+
+ .postagem-lateral{
+ 	font-size: 0.8em;
+ 	padding: 5px;
+ 	background: seashell;
+ 	border-bottom: seashell;
+ }
+
+ .categoria-lateral{
+ 	font-size: 0.8em;
+ 	padding: 5px;
+ 	background: seashell;
+ 	border-bottom: seashell;
+ }
+
+
+ #rodape{
+ 	clear: both; /*isso para separar da barra de postagens*/
+ 	text-align: center;
+ 	padding: 15px;
+ 	background: #ccc;
+ }
+
+
+ /*
+ **** FORMATACAO DO MENU ****
+ */
+
+a {
+	text-decoration: none; /*isso para remover as palavras subinhadas*/
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+
+#area-cabecalho a:link, #area-cabecalho a visited {
+	color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #fff;
+	text-decoration: none; 
+}
+
+
+
+ /*
+ **** Formatacoes em Geral ****
+ */
+
+
+ 	h1 {
+ 		color: #4e4e4e;
+ 		font-size: 2.5em;
+
+ 	}
+
+ 	h2 {
+ 		color: #f7b600;
+
+ 	}
+
+ 	h3 {
+ 		color: #565656;
+ 		background: #ccc;
+ 		padding: 5px;
+
+ 	}
+
+
+ 	.branco{ /*classe criada para mudar de cor a metade (onde está na cor branco)*/
+ 		color: white;
+ 		font-size: 1em; 
+
+
+ 	} 
+
+
+ 	.data-postagem{
+ 		font-size: 0.8em;
+ 		border-bottom: 1px solid #f4f4f4;
+ 		padding-bottom: 10px;
+ 		margin-bottom: 10px;
+ 		display: block;
+ 	}
+
+ 	
